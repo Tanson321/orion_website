@@ -1,15 +1,17 @@
 *{
     font-family: 'Open Sans','Noto Sans JP',  sans-serif;
     letter-spacing: 2px;
+    
 }
 
 body{
     margin: 0;
+    max-width: 1024px;
 }
 
 .title-wrapper{
     margin: 0 auto;
-    width: 90vw;
+    width: 100vw;
     height: 90px;
 }
 
@@ -43,7 +45,7 @@ body{
 
 .headline-wrapper{
     margin: 0 auto;
-    width: 90vw;
+    width: 100vw;
 }
 
 .headline-container{
@@ -61,7 +63,7 @@ body{
 
 .detail-wrapper{
     margin: 0 auto;
-    width: 90vw;
+    width: 100vw;
 }
 
 .detail-container{
@@ -114,8 +116,8 @@ body{
 }
 
 .demo-wrapper{
-    margin: 0 auto;
-    width: 90vw;
+    margin: 5% 0 5% 0;
+    width: 100vw;
 }
 
 .demo-title{
@@ -134,8 +136,8 @@ body{
 }
 
 .features-wrapper{
-    margin: 0 auto;
-    width: 90vw;
+    margin: 5% 0 5% 0;
+    width: 100vw;
 }
 
 .features-wrapper p{
@@ -165,8 +167,8 @@ body{
 }
 
 .specification-wrapper{
-    margin: 0 auto;
-    width: 90vw;
+    margin: 5% 0 5% 0;
+    width: 100vw;
 }
 
 .specification-wrapper p{
@@ -175,4 +177,76 @@ body{
     color: rgb(82, 82, 82);
     text-align: center;
     font-weight: bold;
+}
+
+.inline{
+    display: inline-block;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .img-text{
+        justify-content: center;
+    }
+
+    .detail-container .img-text img{
+        margin: 5% auto;
+    }
+
+    .detail-container .align-left{
+        margin: 5% 17px 5% 17px;
+        width: 90%;
+        text-align: center;
+        line-height: 30px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+    body{
+        
+    }
+
+    .headline-container p{
+        margin: 0 auto;
+        width: 85vw;
+        font-size: 28px;
+    }
+
+    .detail-container .head{
+        margin: 0 auto;
+        width: 90vw;
+        font-size: 20px;
+    }
+
+    .img-text{
+        width: 80vw;
+        justify-content: center;
+    }
+
+    .detail-container .img-text img{
+        width: 80vw;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .detail-container .align-left{
+        margin: 5% 17px 5% 17px;
+        width: 90%;
+        text-align: left;
+        line-height: 30px;
+        font-size: 13px;
+        letter-spacing: 0;
+    }
+
+    .features-wrapper{
+        margin-top: 5%;
+    }
+
+    .detail-container .head{
+        margin-top: 5%;
+    }
 }
