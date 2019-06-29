@@ -1,6 +1,9 @@
 *{
     font-family: 'Open Sans','Noto Sans JP',  sans-serif;
     letter-spacing: 2px;
+}
+
+body{
     margin: 0;
 }
 
@@ -90,7 +93,7 @@
     align-content: center;
     border: solid 2px #adadad;
     margin-bottom: 3%;
-}
+}   
 
 .detail-container .align-left{
     text-align: left;
@@ -108,3 +111,37 @@
     width: 350px;
     height: auto;
 }
+
+.demo-wrapper{
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.demo-title{
+    font-family: 'Noto Sans JP',  sans-serif;
+    font-size: 30px;
+    color: rgb(82, 82, 82);
+    text-align: center;
+    font-weight: bold;
+}
+
+.demo-video{
+    margin: 0 auto;
+    width: 640px;
+    height: 360px;
+    background-color: grey;
+}
+
+.features-wrapper{
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.features-wrapper p{
+    font-family: 'Noto Sans JP',  sans-serif;
+    font-size: 30px;
+    color: rgb(82, 82, 82);
+    text-align: center;
+    font-weight: bold;
+}
+
