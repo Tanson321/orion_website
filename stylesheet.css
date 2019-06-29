@@ -81,19 +81,19 @@ body{
     color: rgb(50, 50, 50);
     text-align: center;
     font-weight: bold;
+    margin: 10% 0 10% 0;
 }
 
 .img-text{
     height: auto;
-    width: 80vw;
+    width: 70vw;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     border: solid 2px #adadad;
-    margin-bottom: 3%;
 }   
 
 .detail-container .align-left{
