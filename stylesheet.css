@@ -206,39 +206,35 @@ body{
 
 @media screen and (max-width: 480px) {
 
-    body{
-        
-    }
-
     .headline-container p{
         margin: 0 auto;
         width: 85vw;
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .detail-container .head{
         margin: 0 auto;
         width: 90vw;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .img-text{
-        width: 80vw;
+        width: 85vw;
         justify-content: center;
     }
 
     .detail-container .img-text img{
-        width: 80vw;
+        width: 85vw;
         height: auto;
         margin: 0 auto;
     }
 
     .detail-container .align-left{
-        margin: 5% 17px 5% 17px;
-        width: 90%;
+        margin: 5% 0px 5% 0px;
+        width: 95%;
         text-align: left;
         line-height: 30px;
-        font-size: 13px;
+        font-size: 12px;
         letter-spacing: 0;
     }
 
