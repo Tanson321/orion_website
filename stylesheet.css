@@ -183,6 +183,14 @@ body{
     display: inline-block;
 }
 
+.cs{
+    color: red;
+}
+
+.specification-content .cs{
+    color: red;
+}
+
 @media screen and (max-width: 1400px) {
 
     .img-text{
