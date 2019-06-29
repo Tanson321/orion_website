@@ -84,10 +84,11 @@ body{
 }
 
 .img-text{
-    height: 400px;
+    height: auto;
     width: 80vw;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
@@ -127,8 +128,8 @@ body{
 
 .demo-video{
     margin: 0 auto;
-    width: 640px;
-    height: 360px;
+    width: 320px;
+    height: 180px;
     background-color: grey;
 }
 
@@ -145,3 +146,33 @@ body{
     font-weight: bold;
 }
 
+.features-content{
+    margin: 0 auto;
+    width: 70vw;
+}
+
+.features-content p{
+    text-align: left;
+}
+
+.features-content .small-head{
+    font-size: 23px;
+}
+
+.features-content .features-text{
+    font-size: 18px;
+    color: black;
+}
+
+.specification-wrapper{
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.specification-wrapper p{
+    font-family: 'Noto Sans JP',  sans-serif;
+    font-size: 30px;
+    color: rgb(82, 82, 82);
+    text-align: center;
+    font-weight: bold;
+}
